@@ -21,10 +21,6 @@ body{
 }
 
 
-
-
-
-
  /* ======================  Header Area - Css  ======================== */
 
 
@@ -49,23 +45,6 @@ header{
     font-weight: bold !important;
 }
 
-
-@media (max-width:991px){
-    .school-icon {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-      }
-
-}
-
-@media (min-width:992px){
-    .menu_area {
-        margin-left: auto;
-    }
-  
-   
-}
 
  /* ========================  Header > .under-header - Css  ======================== */
 
@@ -101,7 +80,7 @@ header{
     width: 100%;
 }
 
- /* ========================  .card-rowrow - Css  ======================== */
+ /* ========================  About-session - Css  ======================== */
 
 .card-row{
     margin-top: 80px;
@@ -139,11 +118,13 @@ header{
 .card-body h4{
     text-align: center;
 }
-.card-body p{
+.card-p{
 text-align: center;
 }
 
-/*-- ===================  Modern Psychology - Css  ====================== --*/
+/*-- ===================  Online Courses - Css  ====================== --*/
+
+
 
 .online-course{
     font-style: normal;
@@ -158,11 +139,13 @@ text-align: center;
 
 .morder-img{
     border-radius: 18px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+
 }
 
 .morder-img:hover{
     background: #FFFFFF;
-    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 40px  #7aa87a ;
     border-radius: 18px;
     cursor: pointer;
 }
@@ -194,3 +177,157 @@ text-align: center;
     color: #585859;
 }  
 
+.card-footer{
+    border-top: none;
+    background-color: #FFFFFF;
+}
+.footer-icon img{
+    width: 18px;
+    height: 20px;
+    background-color:#FFFFFF;
+}
+
+.footer-icon h6{
+    padding-left: 5px;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+}
+
+
+/*-- ===================  Our Instructor - Css  ====================== --*/
+
+
+#instructor{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/*-- ===================  photo Gallery - Css  ====================== --*/
+
+/* inherit some style from .online-course class */
+
+.photo-h{
+    height: 220px;
+}
+
+.photo-gallery{
+    background-color: #F8FFFB;
+    border: none;
+}
+
+.photo-gallery:hover{
+    background: #FFFFFF;
+    box-shadow: 0 10px 40px  #7aa87a;
+    border-radius: 10px;
+    cursor: pointer;
+
+    }
+
+    .photo-gallery img{
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+    }
+/*-- ===================  Testimonial - Css  ====================== --*/
+  
+
+#testimonial{
+    margin-bottom: 100px;
+}
+
+#testimonial h2{
+    color: black;
+    font-weight:bold;
+}
+
+
+.testimonial-item{
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testimonial-item img{
+    margin-right: 50px;
+    width: 120px;
+    height: 120px;
+}
+
+.testimonial-item p{
+    margin-top: 15px;
+    line-height: 30px;
+    color: black;
+}
+
+/*-- ===================  Footer - Css  ====================== --*/
+
+
+footer{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-color: #282531;;
+}
+
+footer h5{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+footer p{
+    line-height: 10px;
+    color: #F8FFFB;
+}
+
+.first-column p{
+    line-height: 30px;
+    color: #F8FFFB;
+}
+.middle-column p{
+   
+    cursor: pointer;
+}
+.last-column{
+    cursor: pointer;
+    margin-left: auto;
+}
+
+footer h6{
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    color: #CDCDCD;
+    padding-top: 50px;
+    line-height: 30px;
+}
+
+
+/*-- ===================  @media Query - Css  ====================== --*/
+
+@media (max-width:991px){
+    .school-icon {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+      }
+      .testimonial-item{
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+    }
+}
+
+@media (min-width:992px){
+    .menu_area {
+        margin-left: auto;
+    }
+  
+   
+}
